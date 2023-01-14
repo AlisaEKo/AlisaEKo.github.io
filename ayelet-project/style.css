@@ -1,0 +1,89 @@
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav {
+    min-height: 40px;
+    background: rgb(232, 221, 221);
+    color: #932f36;
+}
+
+
+nav .nav_inside a {
+    color: #932f36;
+    text-decoration: none;
+    padding: 0 12px;
+    font-weight: bolder;
+}
+
+
+header {
+    min-height: 200px;
+    background: lightgray;
+    color: black;
+    font-weight: bolder;
+}
+
+
+main {
+    min-height: 650px;
+    background-color: #932f36;
+    color: black;
+    text-align: justify;
+    direction: rtl;
+
+}
+
+main .row .box1 {
+    background-color: rgb(232, 221, 221);
+    border: 2px solid black;
+    min-height: 500px;
+    margin-top: 70px;
+     
+}
+
+#line_grey {
+    height: 70px;
+    border: 1px solid white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#line_red {
+    height: 30px;
+    border: 1px solid white;
+}
+
+main .row .box2 {
+    background-color: rgb(232, 221, 221);
+    border: 2px solid black;
+    min-height: 500px;
+    margin-top: 70px;
+     
+}
+
+img {
+    width: 630px;
+    height: 400px;
+    float: right;
+}
+
+#body1 {
+    background-position: center;
+    background-size: contain;
+    background-image: url('/static/facebook_cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 500px;
+    margin: auto;
+  }
+
+
+footer {
+    min-height: 50px;
+    background: grey;
+    color: white;
+}
